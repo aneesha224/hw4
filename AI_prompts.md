@@ -114,6 +114,12 @@ A log of the prompts I typed to the AI assistant while working through the homew
 
 > Try again
 
+## Problem 13: Push to GitHub and submit the URL
+
+> Put your code in a folder named hw4 and push it to a public GitHub repository. Do not put your real .env, campus_customs.db, or product images in the GitHub repo. Use .gitignore, include .env.example with placeholders only. Look at the image for the expected file layout and local-only data pack (not in git). The agent itself is four files under backend/: prompts/prompts.md, agent.py, tools.py, and models.py. README.md should explain how to run the front end and backend after placing the data pack.
+
+> When you're done give me the repo URL to submit
+
 ## Problem 12: Audit trail safety, finish harness
 
 > Problem 12: Audit trail safety, finish harness
