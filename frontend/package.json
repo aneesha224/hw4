@@ -1,0 +1,9 @@
+{
+  "name": "campus-customs",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "dev": "python3 export_catalogue.py && vite", "build": "python3 export_catalogue.py && tsc -b && vite build", "build:standalone": "python3 export_catalogue.py && tsc -b && vite build --mode standalone", "preview": "vite preview" },
+  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "vite-plugin-singlefile": "latest", "typescript": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest", "@types/react": "latest", "@types/react-dom": "latest" },
+  "devDependencies": {}
+}

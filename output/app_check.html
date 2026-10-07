@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Customs — Problem 11 App Check</title>
+  <style>
+    :root { color: #102f58; background: #f5f3ee; font-family: Arial, sans-serif; }
+    body { max-width: 1100px; margin: 0 auto; padding: 35px; }
+    h1, h2 { color: #00356b; }
+    h1 { margin-bottom: .25rem; }
+    h2 { margin-top: 2.5rem; }
+    figure { margin: 18px 0 42px; padding: 16px; background: #fff; box-shadow: 0 6px 20px #102f5812; }
+    img { display: block; width: 100%; height: auto; border: 1px solid #e3e7ec; }
+    figcaption { padding-top: 12px; color: #536276; line-height: 1.55; }
+    .eyebrow { color: #9b783d; letter-spacing: 2px; font-size: .78rem; font-weight: bold; }
+    .note { border-left: 4px solid #b99b5f; padding: 12px 16px; background: #fff; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <p class="eyebrow">CAMPUS CUSTOMS · PROBLEM 11</p>
+  <h1>Site testing / app check</h1>
+  <p class="note"><strong>Current build evidence:</strong> this standalone package contains all 102 catalogue products, 612 size-inventory rows, and embedded product photos. The screenshots below were captured from the current packaged site.</p>
+
+  <h2>1. Chat: product price and size-level inventory</h2>
+  <figure>
+    <img src="app_check_images/inventory.png" alt="Basic Hoodie Big Yale detail page with a concierge reply showing its price and stock by size">
+    <figcaption><strong>What this proves:</strong> On the Basic Hoodie Big Yale page, “Do you have this in medium?” uses the current product context. The concierge reports the exact $68.00 price and lists Medium as 5 left alongside the other size quantities; the same size tiles are visibly selectable on the detail page.</figcaption>
+  </figure>
+
+  <h2>2. Category question: dynamic product cards</h2>
+  <figure>
+    <img src="app_check_images/search-results.png" alt="Campus Concierge showing five hoodie product cards after a hoodie category question">
+    <figcaption><strong>What this proves:</strong> “What hoodies do you have?” returns five matching hoodie cards with real photos, names, and prices in the concierge. The “From your concierge” page section is also triggered, and each card uses the existing product-detail link.</figcaption>
+  </figure>
+
+  <h2>3. Problem 9 usability feature: catalogue controls</h2>
+  <figure>
+    <img src="app_check_images/usability.png" alt="Campus Customs Products page showing search, type filter, price sort, and product cards">
+    <figcaption><strong>What this proves:</strong> The live Products page places search, garment-type filtering, and price sorting above the full visual catalogue. A shopper can narrow the 102-piece collection without scrolling through every item.</figcaption>
+  </figure>
+</body>
+</html>
